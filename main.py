@@ -34,6 +34,8 @@ def run_training(args, dataset, train_loader):
             print("target", target)
             print("len", len)
             output = model(input, target, len)
+
+            
             # loss = loss_func(output, target)
             #
             # optimizer.zero_grad()
