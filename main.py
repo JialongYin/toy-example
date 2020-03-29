@@ -41,7 +41,7 @@ def run_training(args, dataset, train_loader):
             # optimizer.zero_grad()
             # loss.backward()
             # optimizer.step()
-            print("toy test 2")
+            print("toy test")
 
 def main(args):
     dataset = EEGDataset("eeg_text.pkl")
